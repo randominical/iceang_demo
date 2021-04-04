@@ -30,9 +30,10 @@ var sliderCall = {
             centerMode: true,
             infinite: true,
             //autoplay: true,
-            slidesToShow: 4,
+            slidesToShow: 1,
             slidesToScroll: 1,
             draggable: true,
+            variableWidth: true,
             responsive: [
                 {
                     breakpoint: 768,
@@ -58,14 +59,12 @@ function lightboxTrigger() {
 		delegate: 'li a',
 		type: 'image',
         image: {
-            titleSrc: function(item) {
-                return item.el.find('img').attr('title');
-             }
+            verticalFit: true,
         },
         fixedContentPos: true,
         closeOnBgClick: true,
         alignTop: false,
-		tLoading: 'Loading image #%curr%...',
+		//tLoading: 'Loading image #%curr%...',
 		mainClass: 'mfp-img-mobile',
 		gallery: {
 			enabled: true,
