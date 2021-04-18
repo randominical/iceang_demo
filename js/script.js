@@ -29,27 +29,14 @@ var sliderCall = {
             arrows: true,
             centerMode: true,
             infinite: true,
-            //autoplay: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            pauseOnHover: false,
+            pauseOnFocus: false,
             slidesToShow: 1,
             slidesToScroll: 1,
             draggable: true,
             variableWidth: true,
-            responsive: [
-                {
-                    breakpoint: 768,
-                    settings: {
-                        slidesToShow: 2,
-                    }
-                },
-                {
-                    breakpoint: 500,
-                    settings: {
-                        slidesToShow: 1,
-                        centerMode: true,
-                        centerPadding: '15px'
-                    }
-                }
-            ]
         });
     }
 }
@@ -64,7 +51,6 @@ function lightboxTrigger() {
         fixedContentPos: true,
         closeOnBgClick: true,
         alignTop: false,
-		//tLoading: 'Loading image #%curr%...',
 		mainClass: 'mfp-img-mobile',
 		gallery: {
 			enabled: true,
