@@ -1163,7 +1163,8 @@ button * {
 }
 
 .pics-gallery,
-.comics-gallery {
+.comics-gallery,
+.gif-gallery {
   padding: 30px 0 50px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1179,7 +1180,8 @@ button * {
 }
 
 .pics-gallery li,
-.comics-gallery li {
+.comics-gallery li,
+.gif-gallery li {
   width: 25%;
   margin: 0 0 3.75% 0;
   display: -webkit-box;
@@ -1201,8 +1203,16 @@ button * {
   overflow: hidden;
 }
 
+.gif-gallery li a {
+  width: 65%;
+  padding-top: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
 .pics-gallery li a img,
-.comics-gallery li a img {
+.comics-gallery li a img,
+.gif-gallery li img {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1214,7 +1224,8 @@ button * {
 }
 
 .pics-gallery li a:hover img,
-.comics-gallery li a:hover img {
+.comics-gallery li a:hover img,
+.gif-gallery li a:hover img {
   width: 110%;
 }
 
@@ -1368,7 +1379,8 @@ button * {
 
 @media (max-width: 1099px) {
   .pics-gallery li,
-  .comics-gallery li {
+  .comics-gallery li,
+  .gif-gallery li {
     width: 33.33%;
   }
 }
@@ -1414,7 +1426,8 @@ button * {
 
 @media (max-width: 705px) {
   .pics-gallery li,
-  .comics-gallery li {
+  .comics-gallery li,
+  .gif-gallery li {
     width: 50%;
   }
 
@@ -1422,6 +1435,10 @@ button * {
   .comics-gallery li a {
     width: 90%;
   }
+}
+
+.gif-gallery li a {
+  width: 70%;
 }
 
 @media (max-width: 450px) {
@@ -1499,7 +1516,8 @@ button * {
 
 @media (hover: hover), (pointer: fine) {
   .pics-gallery li a:hover img,
-  .comics-gallery li a:hover img {
+  .comics-gallery li a:hover img,
+  .gif-gallery li a:hover img {
     width: 110%;
   }
 
