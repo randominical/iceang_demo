@@ -1164,6 +1164,7 @@ button * {
 
 .pics-gallery,
 .comics-gallery,
+.zines-gallery,
 .gif-gallery {
   padding: 30px 0 50px 0;
   display: -webkit-box;
@@ -1181,6 +1182,7 @@ button * {
 
 .pics-gallery li,
 .comics-gallery li,
+.zines-gallery li,
 .gif-gallery li {
   width: 25%;
   margin: 0 0 3.75% 0;
@@ -1196,7 +1198,8 @@ button * {
 }
 
 .pics-gallery li a,
-.comics-gallery li a {
+.comics-gallery li a,
+.zines-gallery li a {
   width: 85%;
   padding-top: 80%;
   position: relative;
@@ -1212,6 +1215,7 @@ button * {
 
 .pics-gallery li a img,
 .comics-gallery li a img,
+.zines-gallery li a img,
 .gif-gallery li img {
   position: absolute;
   top: 50%;
@@ -1225,11 +1229,13 @@ button * {
 
 .pics-gallery li a:hover img,
 .comics-gallery li a:hover img,
+.zines-gallery li a:hover img,
 .gif-gallery li a:hover img {
   width: 110%;
 }
 
-.comics-gallery li {
+.comics-gallery li,
+.zines-gallery li {
   margin: 0 0 10% 0;
 }
 
@@ -1366,7 +1372,8 @@ button * {
   }
 
   .pics-gallery,
-  .comics-gallery {
+  .comics-gallery,
+  .zines-gallery {
     padding: 30px 0 50px 0;
   }
 }
@@ -1380,6 +1387,7 @@ button * {
 @media (max-width: 1099px) {
   .pics-gallery li,
   .comics-gallery li,
+  .zines-gallery li,
   .gif-gallery li {
     width: 33.33%;
   }
@@ -1427,12 +1435,14 @@ button * {
 @media (max-width: 705px) {
   .pics-gallery li,
   .comics-gallery li,
+  .zines-gallery li,
   .gif-gallery li {
     width: 50%;
   }
 
   .pics-gallery li a,
-  .comics-gallery li a {
+  .comics-gallery li a,
+  .zines-gallery li a {
     width: 90%;
   }
 }
@@ -1517,6 +1527,7 @@ button * {
 @media (hover: hover), (pointer: fine) {
   .pics-gallery li a:hover img,
   .comics-gallery li a:hover img,
+  .zines-gallery li a:hover img,
   .gif-gallery li a:hover img {
     width: 110%;
   }
