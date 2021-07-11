@@ -73,5 +73,5 @@ function hoverVideo(i) {
 
 function hideVideo(i) {
         $('.video__item')[i].pause();
-        $('.video__item').get(0).currentTime = 0;
+        $('.video__item')[i].currentTime = 0;
 }
