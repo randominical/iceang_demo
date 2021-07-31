@@ -993,6 +993,10 @@ button * {
   color: purple;
 }
 
+.menu__link.active, .menu__link.parent {
+  font-weight: 800;
+}
+
 .row {
   margin: 0 auto;
   display: -webkit-box;
