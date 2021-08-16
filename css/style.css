@@ -1315,6 +1315,12 @@ button * {
   .order__form iframe {
     width: 100%;
   }
+  .gallery .slick-arrow.slick-prev::before {
+    margin-left: -21px;
+  }
+  .gallery .slick-arrow.slick-next::before {
+    margin-left: -3px;
+  }
 }
 
 @media (max-width: 1900px) {
