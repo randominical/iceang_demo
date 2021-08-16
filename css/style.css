@@ -1316,7 +1316,7 @@ button * {
     width: 100%;
   }
   .gallery .slick-arrow.slick-prev::before {
-    margin-left: -21px;
+    margin-left: -19px;
   }
   .gallery .slick-arrow.slick-next::before {
     margin-left: -3px;
